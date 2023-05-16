@@ -1,13 +1,15 @@
 
-# We are inputting sample data in x and the value in ys
-x = [140,155,159,179]
+import numpy as np
 
-y  = [60,62,67,70]
+# We are inputting sample data in x and the value in ys
+x = np.array([140.00,155.00,159.00,179.00], dtype=np.float64)
+
+y  = np.array([60.00,62.00,67.00,70.00],dtype=np.float64 )
 w = 0
 b = 0
 alpha = 1.0e-2
 m = len(x)
-iterations=5
+iterations=50
 
 gd  = []
 
@@ -22,8 +24,8 @@ def model(x,w,b):
 
 def cost_func(w,b):
    cost = 0
-   for idx, i in enumerate(x):
-      cost +=  (model(x[idx],w,b)-y[idx])**2
+   for idx in range(m):
+      cost +=  (model(x[idx],w,b)-y[idx])**2.00
 
    cost = cost/(2*m)
    return cost 
@@ -34,14 +36,14 @@ def cost_func(w,b):
 def update_w(w,b):
    value = 0
 
-   for idx, i in enumerate(x):
+   for idx in range(m):
       value += (model(x[idx],w,b) -y[idx] )* x[idx] 
 
    return value
   
 def update_b(w,b):
    value = 0
-   for idx, i in enumerate(x):
+   for idx in range(m):
       value += model(x[idx],w,b) -y[idx] 
    return value 
 
@@ -73,6 +75,8 @@ def gradient_descent():
     
 gradient_descent()
     
-print(gd[0:10])
-        
+print(gd[0:10],  gd[9990:99999])
+
+
+
 
