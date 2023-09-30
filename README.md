@@ -3,16 +3,26 @@ Pure python implementation of most used machine learning Algorithms.
 
 <h2> 1. Linear Regression:   </h2>
 
-  * Linear Regression with 1 Variable.
-  * Linear Regression with multple Variables.
+  <a href="https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/1%20variable%20linear%20regression.py"> * Linear Regression with 1 Variable. </a><br>
+  <a href="https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/multi%20variable%20linear%20regression.ipynb">* Linear Regression with multple Variables. </a>
 
 <h2>  2. Logistic Regression: </h2>
-  * Logistic Regression With Multiple Features
+  <a href="https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/Logistic%20Regression%20Multi%20Variable%20%20.ipynb"> * Logistic Regression With Multiple Features </a>
  
 <h2> 3. KNN (K-Nearest Neighbors) </h2>
+  <a href= "https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/KNN%20-%20K%20Nearest%20Neighbors%20.ipynb" > * KNN implementation </a>
 
 
 
-Will be added soon
+
+
+
+
+
+
+
+
+<h3> Upcoming  </h3>
+
 * Neural Networks
 
