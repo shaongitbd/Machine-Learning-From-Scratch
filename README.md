@@ -12,10 +12,10 @@ Pure python implementation of most used machine learning Algorithms.
 <h2> 3. KNN (K-Nearest Neighbors) </h2>
   <a href= "https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/KNN%20-%20K%20Nearest%20Neighbors%20.ipynb" > * KNN implementation </a>
 
+<h2> 4. K Means Clustering  </h2>
 
 
-
-
+<a href= "https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/K%20means%20Clustering.ipynb" > * K Means Clustering </a>
 
 
 
