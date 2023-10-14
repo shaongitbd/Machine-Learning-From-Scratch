@@ -17,7 +17,7 @@ Pure python implementation of most used machine learning Algorithms.
 
 <a href= "https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/K%20means%20Clustering.ipynb" > * K Means Clustering </a>
 
-<h2> 5. Decision Tree (For Coninuous variable)  </h2>
+<h2> 5. Decision Tree (For Coninuous Features)  </h2>
 
 <a href= "https://github.com/shaongitt/Machine-Learning-From-Scratch/blob/master/Decision%20Tree.ipynb" > * Decision Tree </a>
 
